@@ -1,0 +1,14 @@
+class operation
+{ 
+int a,b;double c;
+ public void fun(int a1,int b1,String d1)
+ { 
+     a=a1;
+     b=b1;
+     if(d1=="+"){  c=a+b;}
+     else if(d1=="-"){ c=a-b;}
+     else if(d1=="*"){ c=a*b;}
+     else{ c=a/b;}
+     System.out.println(c);
+    }
+}
