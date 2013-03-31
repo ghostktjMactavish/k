@@ -17,7 +17,7 @@ class Exchange
         }     
         for(int a=0;a<l;a++)
         {
-            System.out.println(inArray[a]);
+            System.out.println("Item at "+ a + ": " +inArray[a]);
         }
     }
 }
